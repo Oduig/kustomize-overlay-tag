@@ -1,7 +1,8 @@
 bases:
  - ../../base
 images:
+# This does not work, see https://github.com/kubernetes-sigs/kustomize/issues/1040
+#  - name: example-image
+#    newTag: 1.2.3-SNAPSHOT
  - name: eu.gcr.io/example-project/example-image
-   # name: example-image
-   # newName: eu.grc.io/example-project/example-image
    newTag: 1.2.3-SNAPSHOT
