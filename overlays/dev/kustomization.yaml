@@ -1,0 +1,7 @@
+bases:
+ - ../../base
+images:
+ - name: eu.gcr.io/example-project/example-image
+   # name: example-image
+   # newName: eu.grc.io/example-project/example-image
+   newTag: 1.2.3-SNAPSHOT
